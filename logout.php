@@ -8,6 +8,7 @@ session_destroy();
 // redirect back to the site home page
 
 //$conn->close(); // close a database connection
+
 header("Location: login.php");
     
 ?>
